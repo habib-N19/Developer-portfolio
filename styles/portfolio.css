@@ -8,6 +8,26 @@
     color: #FD6E0A;
 }
 
+.btn-section {
+    display: flex;
+    gap: 30px;
+
+}
+
+.banner button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+
+}
+
+.btn-section .btn-primary {
+    margin-left: 0.5rem;
+    display: block;
+}
+
 .btn-primary {
     background: #FD6E0A;
     color: #FFFFFF;
@@ -16,6 +36,20 @@
     border-radius: 5px;
     font-weight: 700;
     font-size: 20px;
+}
+
+.btn-contact {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 19px 23px 18px 24px;
+
+}
+
+.btn-icon-padding {
+    padding-left: 15px;
 }
 
 .header {
